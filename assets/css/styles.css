@@ -4,7 +4,9 @@
         padding: 0px;
         background-color: #161616;
     }
-    
+    html {
+        scroll-behavior: smooth;
+    }
     ul {
         list-style: none;
     }
