@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="assets/css/contact style.css">
+    <script src="assets/js/scripts.js"></script>
+</head>
+
+<body>
+    <section id="main">
+        <!--navigation-------------------------------->
+        <nav>
+            <!--logo--->
+            <a href="index.html" class="logo">Yohanes Alemu</a>
+            <!--menu--------->
+            <div class="toggle"></div>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#skills">Skills</a></li>
+                <li class="active"><a href="#">Contact</a></li>
+
+            </ul>
+        </nav>
+    </section>
+
+    <div class="wrapper">
+        <h2>Contact me</h2>
+        <div id="error_message"></div>
+        <form id="myform" onsubmit="return validate();">
+            <div class="input_field">
+                <input type="text" placeholder="Name" id="name">
+            </div>
+            <div class="input_field">
+                <input type="text" placeholder="Gender" id="subject">
+            </div>
+            <div class="input_field">
+                <input type="text" placeholder="Phone" id="phone">
+            </div>
+            <div class="input_field">
+                <input type="text" placeholder="Email" id="email">
+            </div>
+            <div class="input_field">
+                <textarea placeholder="Message" id="message"></textarea>
+            </div>
+            <div class="btn">
+                <input type="submit">
+            </div>
+        </form>
+    </div>
+
+    <footer>
+        <span>Yohanes Alemu  &emsp;  Gmail : yohanesalemu0069@gmail.com   &emsp; +251 902 60 0068</span>
+        <br>
+        <br>
+        <a href="https://www.facebook.com/yohans.alemu.9"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+    </footer>
+</body>
+
+</html>
